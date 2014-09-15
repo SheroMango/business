@@ -1,2 +1,28 @@
-#header{height: 100px;position: relative;}
-#logo a{background: url(images/logo.png) no-repeat 0 0;width: 16px;height: 16px;position:absolute;top: 0;left: 0;}
+*{margin:0;padding: 0px;outline: 0;}
+body{
+	font-size: 12px;
+	line-height: 20px;
+	/*字体设置：如果电脑有Georgia字体就用Georgia,如果没有就用Arial，还是没有的话就用再其次，以此类推*/
+	font-family: Georgia, Arial, Helvetica, Sans-Serif;
+	color: #333;
+}
+a{color: #ff0000;text-decoration: none;cursor: pointer;}
+
+a:hover{text-decoration: underline;}
+
+a img{border:0;}
+
+input,textarea,select{font-family: Arial,Helvetica,sans-serif;font-size: 12px;}
+textarea{overflow: auto;}
+
+.right{float: right;display: inline;}
+
+#header{position: relative;}
+#logo a{background: url(../img/logo.png) no-repeat 0 0;position:absolute;top: 0;left: 0;}
+.upperRight{padding: 23px 11px 0 0;}
+.upperRight ul{list-style: none;}
+.upperRight ul li{display:inline;float: left;font-size: 11px;line-height: 16px;border-right: 1px dotted #b9b9b9;padding: 2px 17px 2px 0;margin: 0 15px 0 0;}
+.upperRight ul li.last{border:0;margin:0;}
+.upperRight ul li a{float:left;color: #b9b9b9;height: 16px;padding: 0 0 0 20px; }
+.upperRight 
+
